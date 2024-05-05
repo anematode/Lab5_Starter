@@ -1,8 +1,14 @@
 # Lab 5
 
-### Teammates
+## Teammates
 
 Esther Xiong, Timothy Herchen (part of Team 22)
+
+## Links
+
+[Expose](https://anematode.github.io/Lab5_Starter/expose.html)
+
+[Explore](https://anematode.github.io/Lab5_Starter/explore.html)
 
 ## Part 3: Unit testing with Jest
 
@@ -13,3 +19,9 @@ You would not use a unit test to test the message feature of a messaging applica
 ### Question 2
 
 You could certainly use a unit test to test the max message length feature, as this feature would likely be implemented on the front end and so could be testable in isolation.
+
+### Images
+
+![myError](myError.png)
+
+![merged](merged.png)
