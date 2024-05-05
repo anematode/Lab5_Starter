@@ -18,15 +18,15 @@ function init() {
 
     document.getElementById("horn-select").addEventListener("change", (event) => {
         currentSound = event.target.value;
-        imageElem.src = `/assets/images/${currentSound}.svg`;
-        audioElem.src = `/assets/audio/${currentSound}.mp3`;
+        imageElem.src = `assets/images/${currentSound}.svg`;
+        audioElem.src = `assets/audio/${currentSound}.mp3`;
     })
 
     document.getElementById("volume").addEventListener("change", (event) => {
         const volume = +event.target.value;
         audioElem.volume = volume / 100.0;
 
-        const level = Math.ceil((volume + (volume === 33)) / 33);
+        const level = Math.min(Math.ceil((volume + (volume === 33)) / 33), 3);
 
         volumeIconElem.src = `assets/icons/volume-level-${level}.svg`;
         volumeIconElem.alt = `Volume level ${level}`
