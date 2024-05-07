@@ -4,6 +4,11 @@
 
 Esther Xiong, Timothy Herchen (part of Team 22)
 
+### Links
+
+[Expose](https://anematode.github.io/Lab5_Starter/expose.html)
+[Explore](https://anematode.github.io/Lab5_Starter/explore.html)
+
 ## Part 3: Unit testing with Jest
 
 ### Question 1
